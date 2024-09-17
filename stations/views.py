@@ -7,7 +7,6 @@ import  csv
 def index(request):
     return redirect(reverse('bus_stations'))
 
-CONTENT = {}
 def bus_stations(request):
 
     with open('data-398-2018-08-30.csv', newline='') as f:
